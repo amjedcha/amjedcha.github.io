@@ -1,0 +1,98 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #c1c1c1;
+    background-color: #33425b;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2,
+h3,
+h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #a9ad3e;
+
+}
+
+.container {
+    padding: 140px 120px;
+    float: left;
+}
+
+.skills,
+.background,
+.projects {
+    float: right;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #a9ad3e !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.language {
+    border: 2px solid;
+    border-color: #a9ad3e;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 6px;
+    color: #a9ad3e;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.language-used {
+    margin-bottom: 40px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #a9ad3e;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.contact {
+    float: right;
+}
