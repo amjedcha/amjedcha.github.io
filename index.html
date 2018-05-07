@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -34,17 +35,17 @@
                     <li><a href="#background">BACKGROUND</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li><a href="#contact">CONTACT</a></li>              
                 </ul>
             </div>
         </div>
     </nav>
 
-
+<canvas id="playArea"></canvas>
 
     <!-- About -->
     <div id="about" class="container text-center">
+        
         <img src="https://i.imgur.com/hT4O6tj.png" class="img-circle " style="display:inline" alt="Amjed" width="250" height="250">
         <h2>Hello! <i class="em em-wave"></i></h2>
         <p>I'm <b>Amjed Muhsin</b>, a front-end software engineer<br> focused on building clean codes & delivering the best user-experiences design. <i class="em em-desktop_computer"></i></p>
@@ -100,9 +101,34 @@
         </div>
     </div>
 
+    
+    
+    <!-- Featured -->
+    <div id="projects" class="container projects">
+        <h2>Featured Projects</h2>
+             <img src="img/pixel_quite_black_portrait.png" width="250">
+             <img src="img/pixel_quite_black_landscape.png" width="250">
+            <img src="img/pixel_qu.png" width="250">
+        <div class="project-write">        <a href="https://github.com/onlyserenity/CampusChat" target="_blank" >Campus Chat (Mobile App)</a>
+        <p>Social media app for college and university students that lets users chat, browse other users profile, and do other social things within the user's chosen campus.</p> </div>
+  
+        <div class="language-used"><span class="language">Java</span><span class="language">Android Studio</span></div>
+        
+        
+    </div>
+
     <!-- Projects -->
     <div id="projects" class="container projects">
-        <h2>Projects</h2>
+        <h2>Other Projects</h2>
+
+        <div class="project-item"><a href="https://github.com/onlyserenity/OrdeRoid" target="_blank" class="project-name">OrdeRoid (Mobile App)</a></div>
+        <p>Restaurant android app, developed using android studio.</p>
+        <div class="language-used"><span class="language">Java</span><span class="language">Android Studio</span></div>
+        
+        <div class="project-item"><a href="https://github.com/onlyserenity/FireMessaging/" target="_blank" class="project-name">Fire Messaging (Mobile App)</a></div>
+        <p>An android app that has full front and back ends functionality. It uses Firebase database to store registered users information and chat messages.</p>
+        <div class="language-used"><span class="language">Java</span><span class="language">Android Studio</span></div>
+        
         <div class="project-item"><a href="https://github.com/onlyserenity/WeatheRR" target="_blank" class="project-name">WeatheRR (Mobile App)</a></div>
         <p>An android app that uses Dark Sky API and fetches the JSON's object to return readiable information to the user. It displays the current location, temperature, and time.</p>
         <div class="language-used"><span class="language">Java</span><span class="language">Android Studio</span></div>
@@ -144,11 +170,18 @@
 
     <div id="contact" class="container contact">
         <h3>Contact Me</h3>
-        <a href="https://www.instagram.com/jacobchasi/" class="fa fa-instagram"></a>
+        <a href="https://www.instagram.com/jacobbchasi/" class="fa fa-instagram"></a>
         <a href="https://github.com/onlyserenity" class="fa fa-github"></a>
         <p><b>E-MAIL</b>: amjedcha@gmail.com</p>
     </div>
+    
+    <div class="container footer">
+        Designed & Developed by
+        Amjed Muhsin <i class="em em-snail"></i>
+    </div>
+    
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>
