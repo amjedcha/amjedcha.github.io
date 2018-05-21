@@ -9,6 +9,10 @@ p {
     font-size: 16px;
 }
 
+p.intro {
+    font-size: 20px;
+}
+
 #playarea{
     position: absolute;
     top: 70%;
@@ -84,6 +88,10 @@ a:hover {
     margin-bottom: 40px;
 }
 
+
+
+
+
 .fa {
     padding: 20px;
     font-size: 40px;
@@ -101,4 +109,42 @@ a:hover {
 
 .contact {
     float: right;
+}
+
+
+/*BLOCK TWO */
+.project-item {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+
+.project-item a {
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	font-weight: 700;
+	display: inline-block;
+	border-color: transparent;
+	white-space: no-wrap;
+	text-decoration: none;
+	padding: 0px 0px 10px;
+}
+
+.project-item a:after {
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	bottom: -2px;
+	margin-left: 10px;
+	content: "";
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Chevron_right_font_awesome.svg")
+		no-repeat center;
+	background-size: 100%;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	verticle-align: middle;
+}
+
+.project-item a:hover:after {
+	transform: translateX(7px);
 }
