@@ -7,6 +7,7 @@ body {
 
 p {
     font-size: 16px;
+    
 }
 
 p.intro {
@@ -88,10 +89,6 @@ a:hover {
     margin-bottom: 40px;
 }
 
-
-
-
-
 .fa {
     padding: 20px;
     font-size: 40px;
@@ -112,7 +109,7 @@ a:hover {
 }
 
 
-/*BLOCK TWO */
+
 .project-item {
 	display: flex;
 	flex-direction: column;
@@ -147,4 +144,87 @@ a:hover {
 
 .project-item a:hover:after {
 	transform: translateX(7px);
+}
+
+
+.wrapper-btn {
+    max-width: 300px;
+    margin:80px auto 0 auto;
+    position: fixed;
+    left: 4%;
+}
+
+input#toggle {
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+}
+input#toggle + label {
+    display: inline-block;
+    position: relative;
+    box-shadow: inset 0 0 0px 1px #d5d5d5;
+    text-indent: -5000px;
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+input#toggle + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background: rgba(19,191,17,0);
+    -moz-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+input#toggle + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2), 0 2px 4px rgba(0,0,0,.2);
+    -moz-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+input#toggle:checked + label:before {
+    width: 50px;
+    background: rgba(19,191,17,1);
+}
+
+input#toggle:checked + label:after {
+    left: 20px;
+    box-shadow: inset 0 0 0 1px rgba(19,191,17,1), 0 2px 4px rgba(0,0,0,.2);
+}
+
+.moon-icon{
+    background: url(/img/moon.png) no-repeat;
+    position: relative;
+    right: 10%;
+    width: 16px;
+    height: 26px;
+    border: none;
+    display:inline-block;
+}
+
+.sun-icon{
+    background: url(/img/sunny.png) no-repeat;
+    position: relative;
+    left: 10%;
+    width: 16px;
+    height: 26px;
+    border: none;
+    display:inline-block;
 }
